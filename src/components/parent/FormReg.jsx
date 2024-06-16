@@ -10,18 +10,6 @@ import { SelectWrapper } from "../FieldsComp/Dropdown/SelectWrapper";
 
 const FormReg = () => {
   const { handleChange, handleSubmit, handleValidateOnBlur,errorFields } = handleChangeEvents();
-
-  //   const [fields, setFields] = useState({...fieldState });
-  //   const [errorFields, seterrorFields] = useState({...errorState });
-  //   const handleChange = (e) => {
-  //     const { name, value } = e.target;
-  //     setFields((prev) => ({...prev, [name]: value }));
-
-  //     console.log(fields);
-
-  //     // handleValidateOnBlur(e);
-  // };
-
   return (
     <div>
       <form onSubmit={handleSubmit}>
